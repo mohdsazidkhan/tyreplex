@@ -64,13 +64,7 @@
 .location svg, .timings svg, .paymentModes svg{
     color: var(--gray-color);
 }
-.reviewsRatings{
-    margin-top: 50px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
-}
+
 .paymentModes span{
     font-size: 12px;
 }
@@ -88,4 +82,5 @@
 .location .address, .timings .time{
     font-size: 14px;
 }
+
 

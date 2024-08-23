@@ -1,0 +1,32 @@
+.reviewsRatings{
+    margin: 20px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+}
+.reviewsRatings .userImg img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.reviewsRatings .ratingItem{
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    min-height: 160px;
+}
+.react-multiple-carousel__arrow--right {
+    right: 0 !important;
+}
+.react-multiple-carousel__arrow--left{
+    left: 0 !important;
+}
+.userContent{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.ratingItem h6{
+    margin-bottom: 0;
+}
