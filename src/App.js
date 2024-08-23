@@ -2,7 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import Slider from './components/Slider';
 import Breadcrumb from './components/Breadcrumb';
-import { MdAccessTime, MdAccountBalance, MdCreditCard, MdLocationPin, MdOutlineAccountBalanceWallet, MdOutlineCheck, MdOutlineSend, MdOutlineStarPurple500, MdOutlineVerified } from "react-icons/md";
+import { MdAccessTime, MdAccountBalance, MdCreditCard, MdLocationPin, MdOutlineAccountBalanceWallet, MdOutlineSend, MdOutlineStarPurple500, MdOutlineVerified } from "react-icons/md";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 function App() {
