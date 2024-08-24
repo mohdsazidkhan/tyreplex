@@ -4,6 +4,7 @@ import Breadcrumb from './components/Breadcrumb';
 import MainBanner from './components/MainBanner';
 import Reviews from './components/Reviews';
 import DealsIn from './components/DealsIn';
+import ServicesOffered from './components/ServicesOffered';
 
 function App() {
   
@@ -19,6 +20,8 @@ function App() {
       <Reviews/>
       {/* Deals In */}
       <DealsIn />
+      {/* Service Offered */}
+      <ServicesOffered />
     </div>
   );
 }

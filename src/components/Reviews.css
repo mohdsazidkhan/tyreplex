@@ -1,21 +1,22 @@
 .reviewsRatings{
     margin: 20px 0;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
+    padding: 20px 0;
 }
 .reviewsRatings .userImg img{
     width: 32px;
     height: 32px;
     border-radius: 50%;
 }
+.reviewsRatings h5{
+    margin-bottom: 20px;
+}
 .reviewsRatings .ratingItem{
     box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
     border-radius: 8px;
     padding: 10px;
-    margin: 10px;
+    margin:0 10px;
     min-height: 160px;
+    background: #fff;
 }
 .react-multiple-carousel__arrow--right {
     right: 0 !important;

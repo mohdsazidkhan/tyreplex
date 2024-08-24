@@ -1,9 +1,6 @@
 .dealsIn{
     margin: 20px 0;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
+    padding: 20px 0;
 }
 .dealsIn .dealImg img{
     width: 32px;
@@ -21,9 +18,23 @@
     text-decoration: none;
     font-weight: 600;
 }
+.dealsIn h5{
+  margin-bottom: 20px;
+}
+.dealItem a .card-title{
+  padding-left: 10px;
+  opacity: 0.5;
+}
 .dealsIn .dealtem .brandImg {
     height: 35px;
     max-height: 35px;
+}
+.dealsIn .dealItem{
+  background: #fff;
+  border-radius: 5px;
+  margin:0 10px;
+  padding: 10px 15px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
 }
 .brandLogo{
     background-repeat: no-repeat;
@@ -38,9 +49,9 @@
     background-image: url("./../../public/images/logo_sprite.png");
 }
 .dealsIn .brandImg{
-    height: 84px;
+    height: 60px;
     width: 100%;
-    max-height: 84px;
+    max-height: 60px;
     margin: auto;
     overflow: hidden;
     display: flex;
@@ -75,7 +86,7 @@
     background-size: 90px;
   }
   .dealsIn .brandLogo.brand-hankook {
-    background-position: 0 -316px;
+    background-position:0 -403px;
   }
   .dealsIn .brandLogo.brand-hercules {
     background-position: 0 -344px;
@@ -94,7 +105,7 @@
     background-position: 0 -445px;
   }
   .dealsIn .brandLogo.brand-maxxis {
-    background-position: 0 -475px;
+    background-position: 0 -609px;
   }
   .dealsIn .brandLogo.brand-metzeler {
     background-position: 0 -585px;
@@ -107,7 +118,7 @@
     background-position: 0 -720px;
   }
   .dealsIn .brandLogo.brand-pirelli {
-    background-position: 0 -756px;
+    background-position: 0 -973px;
   }
   .dealsIn .brandLogo.brand-yokohama {
     background-position: 0 -1313px;
@@ -140,7 +151,7 @@
     background-position: 0px -1605px;
   }
   .dealsIn .brandLogo.brand-ralco {
-    background-position: -4px -790px;
+    background-position: 0 -1005px;
   }
   .dealsIn .brandLogo.brand-firestone {
     background-position: 0 -288px;
