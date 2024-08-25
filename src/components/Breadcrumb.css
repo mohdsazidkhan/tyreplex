@@ -1,0 +1,32 @@
+.breadcrumbWrapper {
+    padding: 16px 0;
+    margin-top: 50px;
+}
+.breadcrumbWrapper .list {
+    color: var(--text-black);
+    display: flex;
+    font-size: 10px;
+    line-height: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 500;
+}
+.breadcrumbWrapper .list .listLink svg{
+    font-size: 18px;
+}
+.breadcrumbWrapper .list .listItem:last-child {
+    opacity: .7;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+}
+.breadcrumbWrapper .list .listItem .listLink {
+    color: var(--text-black);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}

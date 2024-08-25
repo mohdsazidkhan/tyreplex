@@ -1,4 +1,3 @@
-import './App.css';
 import Header from './components/Header';
 import Breadcrumb from './components/Breadcrumb';
 import MainBanner from './components/MainBanner';

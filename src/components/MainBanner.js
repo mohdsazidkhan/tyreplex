@@ -1,6 +1,7 @@
 import React from 'react'
 import { MdAccessTime, MdAccountBalance, MdCreditCard, MdLocationPin, MdOutlineAccountBalanceWallet, MdOutlineSend, MdOutlineStarPurple500, MdOutlineVerified } from "react-icons/md";
 import Slider from './Slider';
+import './MainBanner.css';
 function MainBanner() {
   return (
     <div className='container'>

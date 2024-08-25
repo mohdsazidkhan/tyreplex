@@ -2,6 +2,7 @@ import React from 'react'
 import './TyresSold.css';
 import { MdKeyboardArrowDown, MdOutlineStarPurple500, MdOutlineVerified } from 'react-icons/md';
 import data from "./tyreSold.json"
+
 function TyresSold() {
    console.log(data, ' data')
    return (
