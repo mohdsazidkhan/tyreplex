@@ -5,6 +5,9 @@ import MainBanner from './components/MainBanner';
 import Reviews from './components/Reviews';
 import DealsIn from './components/DealsIn';
 import ServicesOffered from './components/ServicesOffered';
+import TyresSold from './components/TyresSold';
+import AskQuestion from './components/AskQuestion';
+import Footer from './components/Footer';
 
 function App() {
   
@@ -22,6 +25,12 @@ function App() {
       <DealsIn />
       {/* Service Offered */}
       <ServicesOffered />
+      {/* Tyres Sold */}
+      <TyresSold />
+      {/* Ask Question */}
+      <AskQuestion />
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

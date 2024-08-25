@@ -1,0 +1,35 @@
+.askQuestion{
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.askQuestion input{
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 10px 20px;
+  min-width: 300px;
+  border-right: none;
+}
+.askQuestion input:focus-visible {
+  outline: none;
+}
+.askQuestion input:focus{
+  border: 2px solid var(--red-color);
+}
+.askBtn{
+  background-color: var(--red-color);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #fff;
+  padding: 10px 50px;
+  border: none;
+}

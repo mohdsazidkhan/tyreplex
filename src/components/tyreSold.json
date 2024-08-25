@@ -1,0 +1,84 @@
+{
+    "tyreSold": [
+        {
+            "name": "AMAZER 4G LIFE",
+            "model": "145/80 R12",
+            "price": 3247,
+            "type": "Tube Type",
+            "rating": 4,
+            "reviews": 320,
+            "offer": true,
+            "warranty": 5
+        },
+        {
+            "name": "AMAZER 4G LIFE",
+            "model": "145/80 R13",
+            "price": 3556,
+            "type": "Tube Type",
+            "rating": 4,
+            "reviews": 320,
+            "offer": true,
+            "warranty": 5
+        },
+        {
+            "name": "AMAZER 4G LIFE",
+            "model": "145/65 R13",
+            "price": 3786,
+            "type": "Tube Type",
+            "rating": 4,
+            "reviews": 320,
+            "offer": true,
+            "warranty": 5
+        },
+        {
+            "name": "AMAZER 4G LIFE",
+            "model": "145/70 R13",
+            "price": 3873,
+            "type": "Tube Type",
+            "rating": 4,
+            "reviews": 320,
+            "offer": true,
+            "warranty": 5
+        },
+        {
+            "name": "AMAZER 4G LIFE",
+            "model": "145/80 R12",
+            "price": 3247,
+            "type": "Tube Type",
+            "rating": 4,
+            "reviews": 320,
+            "offer": true,
+            "warranty": 5
+        },
+        {
+            "name": "AMAZER 4G LIFE",
+            "model": "145/80 R13",
+            "price": 3556,
+            "type": "Tube Type",
+            "rating": 4,
+            "reviews": 320,
+            "offer": true,
+            "warranty": 5
+        },
+        {
+            "name": "AMAZER 4G LIFE",
+            "model": "145/65 R13",
+            "price": 3786,
+            "type": "Tube Type",
+            "rating": 4,
+            "reviews": 320,
+            "offer": true,
+            "warranty": 5
+        },
+        {
+            "name": "AMAZER 4G LIFE",
+            "model": "145/70 R13",
+            "price": 3873,
+            "type": "Tube Type",
+            "rating": 4,
+            "reviews": 320,
+            "offer": true,
+            "warranty": 5
+        }
+    ]
+}

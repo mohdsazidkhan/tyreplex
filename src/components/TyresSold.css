@@ -1,0 +1,95 @@
+.tyresSold{
+  margin: 20px 0;
+}
+
+.tyresSold  h5{
+  margin-bottom: 20px;
+}
+
+.tyresSold .soldItem h6{
+  margin: 10px 0;
+}
+.tyresSold .soldItem h6 span{
+  opacity: 0.75;
+}
+.tyresSold .soldItem .brandLogo.brand-apollo {
+  background-position: 18px 5px;
+  margin-top: 30px;
+}
+.tyresSold .soldItem .brandLogo {
+  display: inline-flex;
+  min-height: 35px;
+  min-width: 60px;
+  max-width: 100px;
+  background-size: 70px;
+  max-height: 60px;
+  background-position: center bottom;
+}
+.tyresSold .soldItem{
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.tyresSold .soldItem img{
+  width: 65%;
+}
+.tyresSold .soldItem .warranty{
+  background-color: #4aa77d;
+  color: white;
+  padding: 2px 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.tyresSold .soldItem .price{
+  font-weight: 600;
+  font-size: 18px;
+}
+.tyresSold .soldItem .rating{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.tyresSold .soldItem .rating .star{
+  background-color: var(--red-color);
+  border-radius: 4px;
+  color: white;
+  padding: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tyresSold .moreItems{
+  background-color: var(--red-color);
+  color: white;
+  font-size: 14px;
+  padding: 5px 20px;
+  border-radius: 4px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  min-width: 150px;
+  max-width: 150px;
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+.tyresSold .moreItems svg{
+  font-size: 20px;
+}
+.tyresSold .offer{
+  color: var(--verify-color);
+}

@@ -1,0 +1,51 @@
+footer{
+    background: #fff;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+    padding: 30px 30px 0 30px;
+    margin-top: 50px;
+}
+footer .socialIcons{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.socialIcons li a{
+    text-decoration: none;
+    color: black;
+}
+.socialIcons li:nth-child(1) svg{
+    font-size: 30px;
+}
+.socialIcons li:nth-child(2) svg{
+    font-size: 25px;
+}
+.footerLogo img{
+    width: 100px;
+}
+.copyright{
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.footerMenu{
+    list-style-type: none;
+    padding: 0;
+}
+footer .col-xl-3{
+    border-right: 1px solid #ddd;
+}
+footer .col-xl-3:last-child{
+    border-right: none;
+}
+.footerMenu li a{
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    padding: 3px 15px;
+    font-size: 14px;
+}
