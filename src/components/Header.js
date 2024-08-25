@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.css';
 import { CiUser } from "react-icons/ci";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { AiOutlineMenu } from 'react-icons/ai';
 function Header() {
+    const [isOpen, setIscOpen] = useState(false);
     return (
         <header>
             <div className='container'>
                 <div className='d-flex justify-content-between align-items-center'>
                     <div className='logo'><img src="/logo.png" alt='logo' /></div>
-                    <ul className='d-flex justify-content-end align-items-center'>
+                    <span className='toggleBtn' onClick={()=>setIscOpen(!isOpen)}><AiOutlineMenu/></span>
+                    <ul className={`${isOpen ? "isOpen" : ''}`}>
                         <li>
                             <a href='/' className='text-uppercase font-weight-normal text-decoration-none'>Care Tyre <MdKeyboardArrowDown />
                                 <ul className='subMenu justify-content-end'>

@@ -51,5 +51,26 @@
 .location .address, .timings .time{
     font-size: 14px;
 }
-
+.paymentModes .payType{
+    display: flex;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)  {
+    .dealerDetail{
+        margin-top: 10px;
+    }
+    .filters input, .filters select {
+        min-width: 120px !important;
+    }
+}
+@media (max-width: 768px) {
+    .paymentModes .payType{
+        flex-direction: column;
+    }
+    .getDirection{
+        max-width: 100%;
+    }
+    .dealerDetail{
+        margin-top: 10px;
+    }
+}
 

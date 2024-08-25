@@ -6,10 +6,10 @@ function MainBanner() {
   return (
     <div className='container'>
         <div className='row'>
-          <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12'>
+          <div className='col-xl-6 col-lg-12 col-md-12 col-sm-12'>
             <Slider />
           </div>
-          <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12'>
+          <div className='col-xl-6 col-lg-12 col-md-12 col-sm-12'>
             <div className='dealerDetail'>
               <div className='d-flex justify-content-between align-items-center'>
                 <h1>Shree Hemkunt Tyres and Services</h1>
@@ -40,7 +40,7 @@ function MainBanner() {
               <div className='getDirection'>Get Direction</div>
               <div className='mt-3 paymentModes'>
                 <h6>Payment Mode</h6>
-                <div className='d-flex justify-content-start gap-2'>
+                <div className='payType justify-content-start gap-2'>
                   <span className='d-flex gap-2'><span><MdAccountBalance /></span>Deposit to Account</span>
                   <span className='d-flex gap-2'><span><MdOutlineAccountBalanceWallet /></span>Net Banking</span>
                   <span className='d-flex gap-2'><span><MdCreditCard /></span>Credit Card/Debit Card</span>

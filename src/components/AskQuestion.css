@@ -33,3 +33,11 @@
   padding: 10px 50px;
   border: none;
 }
+@media (max-width: 768px) {
+.askBtn {
+  padding: 6px 15px;
+}
+.askQuestion input{
+  min-width: 200px;
+}
+}

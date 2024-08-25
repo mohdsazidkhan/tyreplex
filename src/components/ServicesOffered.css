@@ -23,3 +23,11 @@
   padding: 10px 50px;
   border: none;
 }
+@media (max-width: 768px) {
+.serviceOffered .col-lg-6{
+  margin-bottom: 10px;
+}
+.bookBtn {
+  padding: 5px 25px;
+}
+}

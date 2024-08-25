@@ -7,7 +7,7 @@ return (
    <div className='serviceOffered'>
       <h5>Services offered by this dealer</h5>
       <div className='row'>
-         <div class="col-lg-6 ">
+         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
             <div className='serviceItem'>
             <div>
                <img src="/images/wheel-alignment-bal.png" alt='wheel-alignment-bal' />
@@ -16,7 +16,7 @@ return (
                <button className='bookBtn'>Book Now</button>
             </div>
          </div>
-         <div class="col-lg-6">
+         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
             <div className='serviceItem'>
                <div>
                   <img src="/images/wheel-alignment.png" alt='wheel-alignment' />

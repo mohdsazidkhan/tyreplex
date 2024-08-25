@@ -10,7 +10,7 @@ function TyresSold() {
          <div className='tyresSold'>
             <div className='d-flex justify-content-between align-items-center'>
                <h5>Tyres Sold by this dealer</h5>
-               <div className='d-flex gap-2 filters'>
+               <div className='gap-2 filters'>
                   <input type="text" class="form-control" placeholder="For Ex: DL01AB1111" />
                   <select class="form-select">
                      <option selected>Filter By</option>
@@ -33,7 +33,7 @@ function TyresSold() {
             </div>
             <div className='row'>
                {data?.tyreSold.map((item, index) =>
-                  <div class="col-lg-3" key={index}>
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12" key={index}>
                      <div className='soldItem'>
                         <span class="brandLogo brand-apollo"></span>
                         <span className='warranty'><MdOutlineVerified /> {item.warranty} Year Warranty</span>
@@ -57,7 +57,9 @@ function TyresSold() {
                      </div>
                   </div>
                )}
+               <div className='col-sm-12'>
                <button className='moreItems'><span>More Items</span> <span><MdKeyboardArrowDown /></span></button>
+               </div>
             </div>
          </div>
       </div>

@@ -18,6 +18,11 @@ header{
 .logo img{
     width: 125px;
 }
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 header ul li a{
     padding: 10px;
     display: flex;
@@ -70,4 +75,39 @@ header ul li a .subMenu li a{
 }
 header ul li a .subMenu li{
     min-width: 105px;
+}
+.toggleBtn{
+    display: none;
+}
+@media (max-width: 768px) {
+    header ul{
+        transform: translateX(-200px);
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background: #fff;
+        width: 200px;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transition: all ease-in .3s;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+        z-index: 3;
+    }
+    header ul.isOpen{
+        
+        transform: translateX(0px);
+        transition: all ease-in .3s;
+    }    
+    .subMenu{
+        display: none;
+    }
+    .toggleBtn{
+        display: flex;
+    }
+    .toggleBtn svg{
+        font-size: 20px;
+    }
 }

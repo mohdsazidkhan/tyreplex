@@ -31,3 +31,13 @@
 .ratingItem h6{
     margin-bottom: 0;
 }
+@media only screen and (min-width: 1024px) and (max-width: 1200px)  {
+.userContent {
+    font-size: 12px;
+}
+}
+@media (max-width: 768px) {
+    .userContent {
+        font-size: 12px;
+    }
+}

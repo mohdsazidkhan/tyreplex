@@ -82,6 +82,7 @@
   align-items: center;
   border: none;
   min-width: 150px;
+  max-height: 30px;
   max-width: 150px;
   text-align: center;
   margin: 20px auto 0 auto;
@@ -91,5 +92,26 @@
 }
 .tyresSold .offer{
   color: var(--verify-color);
+}
+.tyresSold .filters{
+  display: flex;
+}  
+@media (max-width: 768px) {
+  .tyresSold .soldItem img {
+    width: 40%;
+  }
+  .tyresSold .filters {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+    background: #fff;
+    padding: 10px;
+    border-top: 1px solid #a2a2a2;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
 }
 
