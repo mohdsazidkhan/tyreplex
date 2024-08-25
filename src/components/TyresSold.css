@@ -2,10 +2,9 @@
   margin: 20px 0;
 }
 
-.tyresSold  h5{
-  margin-bottom: 20px;
+.filters input,.filters select{
+  min-width: 180px;
 }
-
 .tyresSold .soldItem h6{
   margin: 10px 0;
 }
@@ -93,3 +92,4 @@
 .tyresSold .offer{
   color: var(--verify-color);
 }
+

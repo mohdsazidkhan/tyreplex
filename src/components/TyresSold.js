@@ -4,11 +4,33 @@ import { MdKeyboardArrowDown, MdOutlineStarPurple500, MdOutlineVerified } from '
 import data from "./tyreSold.json"
 
 function TyresSold() {
-   console.log(data, ' data')
+
    return (
       <div className='container'>
          <div className='tyresSold'>
-            <h5>Tyres Sold by this dealer</h5>
+            <div className='d-flex justify-content-between align-items-center'>
+               <h5>Tyres Sold by this dealer</h5>
+               <div className='d-flex gap-2 filters'>
+                  <input type="text" class="form-control" placeholder="For Ex: DL01AB1111" />
+                  <select class="form-select">
+                     <option selected>Filter By</option>
+                     <option value="1">Apollo</option>
+                     <option value="2">BEDROCK</option>
+                     <option value="3">Birla</option>
+                  </select>
+                  <select class="form-select">
+                     <option selected>Most Popular</option>
+                     <option value="1">Price High to Low</option>
+                     <option value="2">Price Low to High</option>
+                  </select>
+                  <select class="form-select">
+                     <option selected>Vehicle Type</option>
+                     <option value="1">Car</option>
+                     <option value="2">Bike</option>
+                     <option value="3">Scooter</option>
+                  </select>
+               </div>
+            </div>
             <div className='row'>
                {data?.tyreSold.map((item, index) =>
                   <div class="col-lg-3" key={index}>
@@ -35,7 +57,7 @@ function TyresSold() {
                      </div>
                   </div>
                )}
-               <button className='moreItems'><span>More Items</span> <span><MdKeyboardArrowDown/></span></button>
+               <button className='moreItems'><span>More Items</span> <span><MdKeyboardArrowDown /></span></button>
             </div>
          </div>
       </div>
